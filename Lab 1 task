@@ -42,5 +42,32 @@ print("first:",first)
 print("second:",second)
 print("third:",third)'''
 
-#task 7:swap without a third variable using bitwise operator
-a = int
+#task 7: swap without a third variable using bitwise operators
+'''a=10
+b=20
+a=a^b
+b=a^b
+a=a^b
+print("after swap: a =",a,"b =",b)'''
+
+#task 8: the atm cashier breakdown
+'''amount = 3800
+notes_500 = amount//500
+notes_100 = (amount%500)//100
+print("500 notes:",notes_500)
+print("100 notes:",notes_100)'''
+
+#task 9:weeks and leftover days convrter
+'''day = 45
+weeks = day//7
+leftover = day%7
+print(f"{weeks} weeks and {leftover} days")'''
+
+#task 10: reverse a 2-digit number mathematically
+num = 72
+tens = num//10
+ones = num%10
+reverse = (ones*10)+tens
+print("reversed num:",reverse)
+
+
