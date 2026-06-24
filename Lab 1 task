@@ -1,0 +1,46 @@
+#task 1: temperature converter
+'''c = float(input("Enter a temperature in celsius:"))
+f = (c*1.8+32)
+print("temperature converts it to fahrenheit:",f)'''
+
+# task 2: simple interest calculate
+'''p = int(input("Enter a p:"))
+r = int(input("Enter a r:"))
+t = int(input("Enter a t:"))
+s = (p*r*t/100)
+print("simple interest calculate:",s)'''
+
+# task 3: square and cube generator
+'''num = int(input("enter a num:"))
+square = num**2
+cube = num**3
+print("square:",square)
+print("cube:",cube)'''
+
+#task 4: total minuter $ seconds
+'''hours = float(input("Enter a duration in houes:"))
+minutes = hours*60
+second = hours*3600
+print("total minutes:",minutes)
+print("total second:",second)'''
+
+#task 5: averaga of three mark
+'''m1 = int(input("enter a m1:"))
+m2 = int(input("enter a m2:"))
+m3 = int(input("enter a m3:"))
+t  = (m1+m2+m3)
+a  = t/3
+print("total:",t)
+print("average:",a)'''
+
+#task 6: digits extractor
+'''num = int(input("enter 3- digit num:"))
+first = num//100
+second = (num//10)%10
+third = num%10
+print("first:",first)
+print("second:",second)
+print("third:",third)'''
+
+#task 7:swap without a third variable using bitwise operator
+a = int
